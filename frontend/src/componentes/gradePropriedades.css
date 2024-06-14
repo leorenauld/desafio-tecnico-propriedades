@@ -1,0 +1,35 @@
+.grade-propriedades {
+  padding: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card-propriedade {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #e2e7ff;
+    color: black;
+  }
+  
+  .imagem-propriedade {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .detalhes-propriedades {
+    padding: 15px;
+  }
+  
+  .detalhes-propriedade h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .detalhes-propriedade p {
+    margin: 5px 0;
+  }
+  
